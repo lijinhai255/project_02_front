@@ -1,0 +1,17 @@
+.userInfo{
+    // background-color: red;
+    .drag{
+        width: 200px;
+        height: 200px;
+        border: 1px dashed #efefef;
+        padding:20px;
+        &:hover{
+            border-color:red;
+        }
+        img{
+            display:block;
+            width:100%;
+        }
+
+    }
+}
